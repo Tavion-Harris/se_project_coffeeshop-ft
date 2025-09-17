@@ -3,8 +3,6 @@
   flex-direction: column;
   align-items: center;
   background: #fff url("../images/background_menu.svg") no-repeat center/cover;
-  
-
 }
 
 .menu__title {
@@ -15,7 +13,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 44px;
 line-height: 52px;
-
 }
 
 .menu__subtitle {
@@ -41,17 +38,5 @@ font-style: normal;
 font-weight: bold;
 font-size: 20px;
 line-height: 30px;
-
 }
 
-.card__list-item {
- display: flex;
- justify-content: space-between;
- gap: 10px;
-}
-
-.card__list-divider {
-  border-bottom: #838383 solid 1px;
- flex-grow: 1;
-
-}

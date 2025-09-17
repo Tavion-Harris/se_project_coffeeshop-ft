@@ -1,9 +1,12 @@
-.cards {
-  width: 540px;
+.card {
+  width: 540px; 
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .card__title {
-  font-family: "inter" , Arial, sans-serif;
+  font-family: "Inter",;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
